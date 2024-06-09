@@ -565,7 +565,13 @@
           -moz-transition: all 0.1s ease-in-out;
 
           &:hover {
-            background: #191949;
+            background: #212165;
+            color: white;
+          }
+
+          &:active {
+            background-color: #111143;
+            color: white;
           }
         }
       }
